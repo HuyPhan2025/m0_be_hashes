@@ -6,7 +6,11 @@
 # file by entering the following command in your Terminal: 
 # `ruby hashes_1.rb`
 
-foods = {"apples": 23, "grapes": 507, "eggs": 48}
+foods = {
+    apples: 23, 
+    grapes: 507,
+    eggs: 48
+}
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
@@ -40,18 +44,25 @@ p foods
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+email = {
+    name:"weston",
+    time:"2.30",
+    address:"turing@gmail.com",
+    receiver:"huyphan@gmail.com",
+    title:"finish assignment"
+}
 # Write code that prints your email hash to the terminal.
-
+p email
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
 # YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
 # YOUR CODE HERE
-
+p email.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
@@ -71,22 +82,22 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # that relate to each individual Instagram post:
 
 
-# posts = [
-#   {
-#     image_src: "./images/beach.png",
-#     caption: "At the beach with my besties",
-#     timestamp: "4:37 PM August 13, 2019",
-#     number_likes: 0,
-#     comments: []
-#   }, 
-#   {
-#     image_src: "./images/holiday-party.png",
-#     caption: "What a great holiday party omg",
-#     timestamp: "11:37 PM December 31, 2019",
-#     number_likes: 13,
-#     comments: []
-#   }
-# ]
+posts = [
+  {
+    image_src: "./images/beach.png",
+    caption: "At the beach with my besties",
+    timestamp: "4:37 PM August 13, 2019",
+    number_likes: 0,
+    comments: []
+  }, 
+  {
+    image_src: "./images/holiday-party.png",
+    caption: "What a great holiday party omg",
+    timestamp: "11:37 PM December 31, 2019",
+    number_likes: 13,
+    comments: []
+  }
+]
 
 # p posts
 # p posts[0]
@@ -101,3 +112,28 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+email = [
+    {
+    name:"harrison",
+    time:"3:00",
+    address:"airport@gmail.com",
+    receiver:"harrisondawn@gmail.com",
+    title:"flight ticket"
+    },
+    {
+    name:"linda",
+    time:"5:48",
+    address:"carrental@gmail.com",
+    receiver:"lindasmith@gmail.com",
+    title:"your car is ready for pickup"
+    },
+    {
+    name:"shawn",
+    time:"8:15",
+    address:"thenbigboss@gmail.com",
+    receiver:"shawnmiller@gmail.com",
+    title:"time for a vacation"
+    }
+]
+p email
